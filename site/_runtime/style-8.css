@@ -1,0 +1,18 @@
+
+.wc-frame{cursor:pointer;outline:none}
+.wc-frame .wc-label{display:inline-block;align-self:flex-start;padding:0;border-radius:4px 4px 0 0;color:rgb(107, 107, 104);transition:background .15s,color .15s,padding .15s}
+.wc-frame .wc-img{transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.wc-frame .wc-box{box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.wc-frame:hover .wc-label,.wc-frame:focus-visible .wc-label,.wc-frame[data-active="true"] .wc-label{background:rgb(91, 61, 245);color:#fff;padding:0 8px}
+.wc-frame:hover .wc-box,.wc-frame:focus-visible .wc-box,.wc-frame[data-active="true"] .wc-box{box-shadow:0 0 0 1.5px rgb(91, 61, 245)}
+.wc-frame:hover .wc-img{transform:scale(1.03)}
+.wc-btn{cursor:pointer;font-family:"Spline Sans", "Spline Sans Placeholder", system-ui, sans-serif;border:1px solid rgb(226, 226, 223);background:rgb(255, 255, 255);color:rgb(18, 18, 18);transition:border-color .15s,color .15s}
+.wc-btn:hover{border-color:rgb(91, 61, 245);color:rgb(91, 61, 245)}
+.wc-btn:focus-visible,.wc-row:focus-visible,.wc-pin:focus-visible,.wc-stage:focus-visible,.wc-card:focus-visible{outline:2px solid rgb(91, 61, 245);outline-offset:2px}
+.wc-row{color:inherit;text-decoration:none}
+.wc-row:hover .wc-row-title{color:rgb(91, 61, 245)}
+.wc-row:hover .wc-thumb{border-color:rgb(91, 61, 245)}
+.wc-pin{cursor:pointer;border:0;padding:0}
+@media (pointer:fine){.wc-own-cursor,.wc-own-cursor *{cursor:none!important}}
+@media (prefers-reduced-motion: reduce){.wc-frame .wc-img,.wc-frame .wc-label{transition:none}.wc-frame:hover .wc-img{transform:none}}
+@keyframes wcIn{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}

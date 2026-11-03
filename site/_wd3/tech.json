@@ -1,0 +1,37 @@
+{
+ "builders": [
+  "framer",
+  "react"
+ ],
+ "libraries": [],
+ "runtime": {
+  "contexts": {},
+  "wasm": 0,
+  "workers": 0,
+  "webgpu": false,
+  "shadowRoots": 0,
+  "canvases": 0
+ },
+ "cssFeatures": [
+  "view transitions"
+ ],
+ "fonts": {
+  "families": [
+   "Spline Sans Mono",
+   "Spline Sans",
+   "FirdavsSeasonMix"
+  ],
+  "sources": [
+   "framer",
+   "google fonts",
+   "self-hosted"
+  ]
+ },
+ "videos": [],
+ "files": {
+  "text": 28,
+  "image": 40,
+  "application": 5,
+  "font": 4
+ }
+}

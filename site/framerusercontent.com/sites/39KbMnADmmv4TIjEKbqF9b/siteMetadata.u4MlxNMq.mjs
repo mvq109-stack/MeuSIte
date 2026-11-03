@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.Bi-D_2cA.mjs";function t(e,t){return{description:`Ilse Moreno is an independent brand and web designer in Lisbon. Websites, product and launch sites, and brands for small companies.`,favicon:`https://framerusercontent.com/assets/FdNB6ZFgj8GI2xzIjpGtOXWmJ0.png`,robots:`max-image-preview:large`,socialImage:`https://framerusercontent.com/assets/t7ljiw90k36Jx2BsPvhddmlspTM.jpg`,title:`Ilse Moreno · Brand and web designer`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=siteMetadata.u4MlxNMq.mjs.map
